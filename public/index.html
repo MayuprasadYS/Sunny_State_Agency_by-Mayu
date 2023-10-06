@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./images/SSA-logo.svg">
+    <title>Sunny State Agency-Data-Driven Technology</title>
+    <meta name="description" content="Sunny State Agency is a global data-driven monetization company that specifies in revamping your existing content and optimizing that to each specific ...">
+</head>
+<body>
+    <div>
+        <div >
+            <header class="bg-transparent fixed w-95 z-[160] top-0">
+                <nav class="bg-transparent fixed h-[110px] z-[160] w-95 max-sm:hidden">
+                    <div class="flex justify-between items-center h-full">
+                        <div class="flex items-center">
+                            <div class="logo ml-[20px]">
+                            <a href="#">
+                                <img class="transform scale-75" src="./images/SSA-logo.svg" alt="home logo">
+                            </a>
+                            </div>
+                            <div class="font-custom1 text-[16px]  leading-[18px]  hover-text">SUNNY <br> STATE <br> AGENCY</div>
+                        </div>
+                        <div class="flex items-center">
+                            <a class="nav" href="#Who-are-we">who are we</a>
+                            <a class="nav" href="#FAQ">FAQ's</a>
+                            <a class="nav " href="#Services">SERVICES</a>
+                            <P class="B-grade enquiryForm">GET IN TOUCH &nbsp;➡</P>
+                        </div>
+                    </div>
+                </nav>
+                <nav class="flex w-full sm:hidden">
+                    <div class="flex  w-full">
+                        <div>
+                            <a href="#">
+                                <img class="transform scale-75" src="./images/SSA-logo.svg" alt="logo">
+                            </a>
+                        </div>
+                        <div class="w-95">
+                            <div class="flex flex-col cursor-pointer p-[10px] m-[10px] float-right bg-black rounded-full" id="menu-toggle1">
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                            </div>
+                            <nav class="hidden float-right pt-[30px] h-full menu" id="menu1">
+                                <ul>
+                                    <li class="border1"><a href="#Who-are-we">WHO ARE WE</a></li>
+                                    <li class="border1"><a href="#FAQ">FAQ's</a></li>
+                                    <li class="border1 border-b-2"><a href="#Services">SERVICES</a></li>
+                                </ul>
+                                <p class="B-grade mt-4 enquiryForm2">GET IN TOUCH &nbsp;➡</p>
+                            </nav>                        
+                        </div>
+                    </div>
+                </nav>
+                <div class="fixed left-0 right-0 bottom-0 top-0 w-screen h-screen bg-[#000] z-[2000]   modal modal--hidden">
+                    <div class="w-full h-full pt-[100px] pb-[80px] flex items-center justify-center flex-col overflow-y-auto overflow-hidden">
+                        <div class="w-[460px] pt-[30px] pb-[30px] pr-[50px] pl-[50px] bg-[#f9f9fc] text-[#1f1f24] flex flex-col items-center  max-sm:w-screen  modal-content">
+                            <div class="flex justify-end mr-[-24rem] mt-[-1rem] max-sm:mr-[-20rem] max-sm:mt-2 modal-close-bar">
+                                <span class="text-3xl font-mono w-[20px] text-[#9276cce4] cursor-pointer">X</span>
+                            </div>
+                            <div class="w-[70px]">
+                                <img src="./images/SSA-logo.svg" alt="logo">
+                            </div>
+                            <h2 class="text-[20px] w-full font-custom4 font-[100] text-[#5622bd] leading-[150%] pb-[30px] text-center whitespace-pre-line">
+                                We're glad to see you here. Fill out this form and we'll be in contact soon.
+                            </h2>
+                            <form id="learn-more"> 
+                                <div class="mb-[15px]">
+                                    <input class="input" name="name" type="text" placeholder="Full Name" autocomplete="additional-name">
+                                </div>
+                                <div class="mb-[15px]">
+                                    <input class="input" name="name" type="email" placeholder="Company Email" autocomplete="email">
+                                </div>
+                                <div class="w-[370px] mb-[20px]">
+                                    <textarea class="input min-h-[120px]" name="message" placeholder="How we can help you..."></textarea>
+                                </div>
+                                <div>
+                                    <button class="mt-[30px] mr-[50px] transition-all duration-500 ease-out pt-[10px] pb-[10px] pr-[14px] pl-[14px] text-[18px] w-full h-[50px] border border-solid border-1 border-#843cf3 outline-none cursor-pointer font-custom5 uppercase tracking-[0.8px] bg-[#843cf3] text-[#fff] relative 
+                                    hover:bg-[#f3f3f7] hover:text-[#000]">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div>
+                    <section style="transform: translate3d(0px,0px,0px);" class="w-screen h-screen fixed top-0 max-sm:h-auto max-sm:relative">
+                        <div class="w-full h-screen fixed left-0  max-sm:static max-sm:h-full max-sm:relative">
+                            <div class="w-full h-full relative z-[2]">
+                                <div class="container h-full flex justify-end flex-col pb-[8%] max-sm:pb-[15%]">
+                                    <h1  class="text-[70px] font-custom2 w-[75%] leading-[100%] max-sm:text-[55px] max-sm:pt-[230px] max-sm:w-full">
+                                        <div class="overflow-hidden max-sm:pb-0">
+                                            We Optimize & Monetize
+                                        </div>
+                                        <div class="overflow-hidden pb-[10px] max-sm:pb-[8px]">
+                                            Your Existing Content Using
+                                        </div>
+                                        <div class="overflow-hidden pb-[10px] max-sm:pb-[8px]">
+                                            Data-Driven Technology
+                                        </div>
+                                    </h1>
+                                    <p class="text-[15px] font-custom3 pt-[2%] pb-[2%] w-[55%] leading-[140%] max-sm:text-[18px] max-sm:w-full max-sm:pb-[30px] max-sm:leading-[160%]">
+                                        We are experts in optimizing, localizing, and monetizing your existing content and unlocking your full potential with no additional work involved on your end.
+                                    </p>
+                                    <p class="B-grade enquiryForm1"> GET IN TOUCH &nbsp;➡</p>
+                                </div>
+                            </div>
+                            <video class="object-cover absolute -z-[10]  h-full w-full top-0 left-0 right-0 bottom-0" autoplay plays-inline loop muted>
+                                <source src="./video/introVid.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </section>
+                    <section id="stats" class="w-full bg-[#000] text-[#fff] relative z-[5] mt-[707px] pb-[200px] max-sm:pb-[60px] max-sm:mt-0 big">
+                        <div class="border-t-2 border-solid border-[#707070] border-b-2 border-solid border-[#707070] pt-[20px] pb-[20px] max-sm:border-b-0">
+                            <div class="flex flex-row  w-full overflow-hidden">
+                                <div class="text-wrapper">
+                                    <p>SUNNY STATS.</p>
+                                    <p>SUNNY STATS.</p>
+                                    <p>SUNNY STATS.</p>
+                                    <p>SUNNY STATS.</p>
+                                    <p>SUNNY STATS.</p>
+                                    <p>SUNNY STATS.</p>
+                                    <p>SUNNY STATS.</p>
+                                    <p>SUNNY STATS.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container mt-[-2px]">
+                            <div class="flex justify-between max-sm:flex-wrap max-sm:pt-[5%]">
+                                <div class="w-[15%] border-t-2 border-solid border-[#843cf3] pt-[35px] max-sm:w-[43%] max-sm:pb-[12%]">
+                                    <h2 class="totalnum ">1 Billion+</h2>
+                                    <p class="para">Monthly</p>
+                                    <p class="para">Story Views</p>
+                                </div>
+                                <div class="w-[15%] border-t-2 border-solid border-[#843cf3] pt-[35px] max-sm:w-[43%] max-sm:pb-[12%]">
+                                    <h2 class="totalnum">50 Million+</h2>
+                                    <p class="para">Unique</p>
+                                    <p class="para">Audience</p>
+                                </div>
+                                <div class="w-[15%] border-t-2 border-solid border-[#843cf3] pt-[35px] max-sm:w-[43%] max-sm:pb-[12%]">
+                                    <h2 class="totalnum">50 +</h2>
+                                    <p class="para">Creators</p>
+                                    <p class="para">We Represent</p>
+                                </div>
+                                <div class="w-[15%] border-t-2 border-solid border-[#843cf3] pt-[35px] max-sm:w-[43%] max-sm:pb-[12%]">
+                                    <h2 class="totalnum">2 Billion+</h2>
+                                    <p class="para">Monthly</p>
+                                    <p class="para">Video Views</p>
+                                </div>
+                                <div class="w-[15%] border-t-2 border-solid border-[#843cf3] pt-[35px] max-sm:w-[43%] max-sm:pb-[12%]">
+                                    <h2 class="totalnum">30 +</h2>
+                                    <p class="para">Countries</p>
+                                    <p class="para">Reached</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="Services" class="w-full relative z-[5] bg-[#1c1c1c]">
+                        <div class="container pt-[70px] pb-[70px] max-sm:pt-[70px] max-sm:pb-[70px]">
+                            <h1 class="text-[75px] font-custom7 leading-[100%] max-sm:text-[55px] leading-[110%]">
+                                Plateforms <br> We Monetize On
+                            </h1>
+                            <div class="pt-[70px] grid grid-flow-col  gap-[3%] max-sm:pt-[50px] max-sm:flex max-sm:flex-col">
+                                <div class="platforms hover:bg-[#fffc00] change1 max-sm:pad max-sm:bg-[#fffc00]">
+                                    <div class="mb-[20px] h-[30px] transition-all duration-300 ease-out">
+                                        <img class="block opacity-100 max-sm:hidden" src="./images/platforms/snapchat-white.svg" alt="SCW">
+                                        <img class="hidden opacity-0 max-sm:block max-sm:opacity-100" src="./images/platforms/snapchat-black.svg" alt="SCB">
+                                    </div>
+                                    <h2 class="s-4-main max-sm:text-[#000]">Snap Discover Show</h2>
+                                    <p class="s-4-para max-sm:text-[#000]">We are working closely with Snap and are pitching top talent that we think can do well on a Discover Show, and when we manage to get the show approved we facilitate the entire process of running such a show the best way possible, which includes, re-editing and optimization of your existing (YouTube) content the best way possible, a-b testing multiple thumbnails and analyzing data. There is no additional work involved on your end and you will remain a 100% owner of the channel we help establish.</p>
+                                </div>
+                                <div class="platforms change hover:bg-[rgb(24,119,242)] max-sm:pad max-sm:bg-[rgb(24,119,242)]">
+                                    <div class="mb-[20px] h-[30px] transition-all duration-300 ease-out">
+                                        <img class="block opacity-100 max-sm:hidden" src="./images/platforms/facebook-blue.svg" alt="FBB">
+                                        <img class="hidden opacity-0 max-sm:block max-sm:opacity-100" src="./images/platforms/facebook-white.svg" alt="FBW">
+                                    </div>
+                                    <h2 class="s-4-main">Official Facebook Media Partners</h2>
+                                    <p class="s-4-para max-sm:text-[#fff]">Understanding that each platform needs a unique approach to maximize results is something we take very seriously. We will unlock a new revenue stream for you by tailoring your content specifically to what works best on Facebook. Your short-form content has lots of value on Facebook Reels and other bonus features you probably haven’t heard of.</p>
+                                </div>
+                                <div class="platforms change hover:bg-gradient-to-tr from-[rgb(135,241,233)] to-[rgb(218,14,79)] max-sm:pad max-sm:bg-gradient-to-tr from-[rgb(135,241,233)] to-[rgb(218,14,79)]">
+                                    <div class="mb-[20px] h-[30px] transition-all duration-300 ease-out">
+                                        <img class="block opacity-100" src="./images/platforms/tiktok-white.svg" alt="TTW">
+                                        <img class="hidden opacity-0" src="./images/platforms/tiktok-pink.svg" alt="TTP">
+                                    </div>
+                                    <h2 class="s-4-main">TikTok Creator Fund</h2>
+                                    <p class="s-4-para max-sm:text-[#fff]">We all know that short-form content is here to stay but it’s also difficult to turn your hobby into a new revenue stream. We help you localize and monetize this short-form content by repurposing your content for YouTube Shorts, Snap, and Facebook Reels.</p>
+                                </div>
+                                <div class="platforms change hover:bg-red-600 max-sm:pad max-sm:bg-red-600">
+                                    <div class="mb-[20px] h-[30px] transition-all duration-300 ease-out">
+                                        <img class="block opacity-100 max-sm:hidden" src="./images/platforms/youtube-red.svg" alt="YTR">
+                                        <img class="hidden opacity-0 max-sm:block max-sm:opacity-100" src="./images/platforms/youtube-black.svg" alt="YTB">
+                                    </div>
+                                    <h2 class="s-4-main">YouTube Editing</h2>
+                                    <p class="s-4-para max-sm:text-[#fff]">We can become your one-stop shop as we are experts in editing long-form content too and are able to turn your (raw) footage into an engaging video that will lock viewers in and secure a high average watch time to maximize results.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="w-full bg-[#fff] text-[#000] relative z-[5] pt-[50px] pb-[50px]">
+                        <div class="container flex justify-center flex-col items-center max-sm:w-screen">
+                            <div class="bg-[#fffd00] rounded-[20px] w-[70px] h-[70px]">
+                                <img class="w-[70px] h-[70px]" src="./images/snapchat-icon.svg" alt="snap logo">
+                            </div>
+                            <h2 class="text-[45px] font-custom7 text-[#262529] pt-[10px] pb-[5px] text-center">Snap Discover Show</h2>
+                            <p class="text-[15px] text-[#3d3939] font-custom3 text-center pr-[10%] pl-[10%] leading-[160%]">
+                                We have been working closely with Snap on their Discover program and have launched over 50 unique shows. We facilitate the entire process, from pitching a show to editing and optimizing your existing content to make it suitable for Snap. We understand what resonates on the platform in terms of content and edits which shows in our monthly results, as we manage to generate over 100,000,000 monthly views, and so, turning this into a highly substantial new revenue stream for our creators.
+                            </p>
+                            <div class="flex justify-center items-center pt-[60px] pb-[60px] max-sm:pt-[60px] max-sm:pb-[60px] max-sm:w-full max-sm:justify-start max-sm:overflow-x-auto bar-bottom">
+                                <div class="videogallery h-[390px] translate-y-[80px] overflow-hidden max-sm:h-[520px] max-sm:translate-y-0">
+                                    <div class="video">
+                                        <div class="hover-video">
+                                            <div class="relative overflow-hidden w-full h-full video-content">
+                                            <video id="videojs" class="play1" loop muted playsinline crossorigin="anonymous" data-testid="video-element" disableremoteplayback disablepictureinpicture style="display: block; width: 100%; object-fit: cover;"> 
+                                            <source src="./snapDiscover/matty.mp4" type="video/mp4">
+                                            </video>
+                                            <div class="play-button"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="videogallery h-[390px] translate-y-[20px] overflow-hidden max-sm:h-[520px] max-sm:translate-y-0">
+                                    <div class="video">
+                                        <div class="hover-video">
+                                            <div class="relative overflow-hidden w-full h-full video-content">
+                                            <video id="videojs2" class="play1" loop muted playsinline crossorigin="anonymous" data-testid="video-element" disableremoteplayback disablepictureinpicture style="display: block; width: 100%; object-fit: cover;">
+                                                <source src="./snapDiscover/Nigel.mp4">
+                                            </video>
+                                            <div class="play-button"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="videogallery h-[550px] overflow-hidden max-sm:h-[520px]">
+                                    <div class="video">
+                                        <div class="hover-video">
+                                            <div class="relative overflow-hidden w-full h-full video-content">
+                                            <video id="videojs3" class="play1" loop muted playsinline crossorigin="anonymous" data-testid="video-element" disableremoteplayback disablepictureinpicture style="display: block; width: 100%; object-fit: cover;">
+                                                <source src="./snapDiscover/Steve_o.mp4">
+                                            </video>
+                                            <div class="play-button"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="videogallery h-[390px] translate-y-[20px] overflow-hidden max-sm:h-[520px] max-sm:translate-y-0">
+                                    <div class="video">
+                                        <div class="hover-video">
+                                            <div class="relative overflow-hidden w-full h-full video-content">
+                                            <video id="videojs4" class="play1" loop muted playsinline crossorigin="anonymous" data-testid="video-element" disableremoteplayback disablepictureinpicture style="display: block; width: 100%; object-fit: cover;">
+                                                <source src="./snapDiscover/Nikki.mp4">
+                                            </video>
+                                            <div class="play-button"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="videogallery h-[390px] translate-y-[80px] overflow-hidden max-sm:h-[520px] max-sm:translate-y-0">
+                                    <div class="video">
+                                        <div class="hover-video">
+                                            <div class="relative overflow-hidden w-full h-full video-content">
+                                            <video id="videojs5" class="play1" loop muted playsinline crossorigin="anonymous" data-testid="video-element" disableremoteplayback disablepictureinpicture style="display: block; width: 100%; object-fit: cover;">
+                                                <source src="./snapDiscover/Andrew_Callaghan.mp4">
+                                            </video>
+                                            <div class="play-button"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="B-grade1 enquiryForm3"> GET IN TOUCH &nbsp;➡</p>
+                        </div>
+                    </section>
+                    <section class="w-full bg-[#000] z-[5] text-[#fff] relative pt-[50px] pb-[300px] overflow-hidden max-sm:pb-[100px]">
+                        <div class="flex z-[5] relative container max-sm:flex max-sm:flex-col">
+                            <h1 class="text-[75px] font-custom6 leading-[100%] mr-[5%] whitespace-nowrap max-sm:text-[55px] max-sm:pb-[35px]">
+                                Our <br> Mission
+                            </h1>
+                            <p class="text-[16px] font-custom3 leading-[160%]">
+                                It's our mission to create and unlock new revenue streams so that you can remain focused on creating new content which is the fuel for this engine. There is literally no additional work on your end besides pre-approving our edits before we publish this onto your channel, and of course, collecting monthly revenue.
+                                <br>
+                                <br>
+                                We do not claim any ownership of the page we help grow or the channel we help establish. As a team with a background in content production, we believe that your creative IP should remain in your full control and ownership. As a boutique agency, you will become part of a family of creators and we help establish crosspost relationships between our creators so they can expand each other's reach and occasionally collaborate.
+                            </p>
+                        </div>
+                        <div class="absolute left-[50%] bottom-0 translate-x-[-50%] z[1] w-full h-full">
+                            <video class="object-cover object-center absolute -z-[10]  h-full w-full " autoplay plays-inline loop muted>
+                                <source src="./video/What_to_expect.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </section>
+                    <section class="w-full bg-[#1c1c1c] relative z-[5] pt-[150px] max-sm:pt-[50px]" >
+                        <div class="flex flex-col pl-[8%] pr-[8%] container max-sm:p-0">
+                            <div class="pb-[3%] serviceitem ">
+                                <div class="scale-125 services__content max-sm:scale-100">
+                                    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script><dotlottie-player src="https://lottie.host/16de202a-9f04-49d5-aed3-0e47b4759e17/odfhdGxVVY.json" background="transparent" speed="1" style="width: 280px; height: 422px" direction="1" mode="normal" loop autoplay></dotlottie-player>
+                                </div>
+                                <div class="desc">
+                                    <h2 class="desc-h2">A Team Of Creatives</h2>
+                                    <p class="desc-p">We're a team of like-minded creatives and this approach shows in the way we optimize content. We like to see ourselves as out-of-the-box thinkers and always find a creative solution to any potential problem we're facing. In this rapidly changing landscape, you have to be able to pivot while preserving authenticity.</p>
+                                </div>
+                            </div>
+                            <div class="serviceitem ">
+                                <div class="order-2 services__content scale-100 ">
+                                    <video class="object-cover object-center w-full h-full max-sm:w-full max-sm:h-full max-sm:object-cover max-sm:object-center max-sm:scale-90 " autoplay playsinline loop>
+                                        <source src="./video/Socially_proactive_team.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                                <div class="desc max-sm:order-2 ">
+                                    <h2 class="desc-h2 ">The Art of Storytelling</h2>
+                                    <p class="desc-p">We take pride in our work and are passionate about what we do. This is also why we have a selective roster of top-notch talent in all niches. We live in a colorful world and so we highly embrace diversity within the company and outside of it. This isn't a one-size-fits-all industry and optimizing specifically to each platform is a must while preserving the narrative.</p>
+                                </div>
+                            </div>
+                            <div class="serviceitem">
+                                <div class="scale-125 services__content max-sm:scale-100">
+                                    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script><dotlottie-player src="https://lottie.host/b117ebab-d48b-4bb6-8083-0ac1e337ecdf/WbVmQ2Ek6d.json" background="transparent" speed="1" style="width: 320px; height: 350px" direction="1" mode="normal" loop autoplay></dotlottie-player>
+                                </div>
+                                <div class="desc">
+                                    <h2 class="desc-h2">The Eyes And Ears Of The Industry</h2>
+                                    <p class="desc-p">We use the latest tech tools to spot trending topics and consult our creators on what corners to tap into and use this in our content-posting strategy. Its rapidly changing landscape and tapping into a relevant topic can give lots of momentum and increases the chance to go viral. We also run our own network of original series in different verticals such as Celebrity & Pop Culture, True Crime, Combat Sports, and many others.</p>
+                                </div>
+                            </div>
+                            <div class="serviceitem ">
+                                <div class="order-2 scale-125 services__content max-sm:scale-100">
+                                    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script><dotlottie-player src="https://lottie.host/b1aa555a-0ffd-4e56-930e-37736983c205/LcVyfDCCGC.json" background="transparent" speed="1" style="width: 300px; height: 300px" direction="1" mode="normal" loop autoplay></dotlottie-player>
+                                </div>
+                                <div class="desc max-sm:order-2">
+                                    <h2 class="desc-h2">A Tailored Approach</h2>
+                                    <p class="desc-p">We're a tight-knit team and everyone looks after a small pool of talent to ensure they are receiving the time, attention, and care that is essential to stimulate constant growth. While our data analysts work hand in hand with our community managers to provide you with monthly reports and discuss whenever there is room for improvement.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="Who-are-we" class="relative bg-gradient-to-b from-[#1c1c1c] to-[#000] z-[5] w-full text-[#000]">
+                        <div class="pt-[60px] pb-[60px] w-full h-full bg-[#fff] text-[#000] rounded-[40px] max-sm:p-0 max-sm:overflow-hidden">
+                            <div class="container max-sm:border-t-0  max-sm:w-full">
+                                <div class="flex items-center pt-[40px] pb-[80px] max-sm:flex-col">
+                                    <div class="w-[50%] pr-[5%] max-sm:w-full max-sm:pr-0 max-sm:h-[400px] max-sm:scale-100">
+                                        <img class="w-full h-full object-cover object-center" src="./images/partnership.svg" alt="partnership">
+                                    </div>
+                                    <div class="w-[50%] max-sm:w-full max-sm:mt-[20px] max-sm:pl-[10px] max-sm:pr-[10px]">
+                                        <h2 class="text-[75px] font-custom7 text-[#0d0d0d] pb-[10px] leading-[100%] max-sm:text-[55px] ">
+                                            A Partnership With Only Benefits and No Additional Work
+                                        </h2>
+                                        <ul class="pl-[15px]">
+                                            <li class="list-item"> We work on a revenue split basis, so no beforehand fees on your end. A no-cure-no-pay method</li>
+                                            <li class="list-item">We use all of our resources to create new revenue streams for you such as Snap Discover Shows, TikTok Creator Fund & Facebook Bonuses</li>
+                                            <li class="list-item">We don't claim any ownership of content or channels we help establish.</li>
+                                            <li class="list-item">We can help to set up a merchandise line and run ads on multiple platforms, retargeting and general consulting</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="w-full bg-[#000] z-[5] relative pt-[80px] pb-[100px]">
+                        <div class="flex container max-sm:flex-col">
+                            <div class="w-[45%] pr-[7%] max-sm:w-full max-sm:pr-[10%]">
+                                <h2 class="text-[75px] font-custom7 leading-[100%] font-thin pb-[20px] max-sm:text-[55px] ">
+                                    How We Help You Grow?
+                                </h2>
+                                <p class="text-[18px] font-custom3 text-[#9c9c9c] leading-[170%]">
+                                    By using the latest data-driven technology, we optimize and scale the distribution of your content to maximize your true potential and reach new all-time highs in terms of performance within a short time frame.
+                                </p>
+                            </div>
+                            <div class="accordion w-[55%] max-sm:w-full">
+                                <div class="accordion-item border-t-2 border-[#343434]">
+                                  <button class="accordion-button">
+                                    <p> 1.&nbsp; Analyze </p>
+                                    <div class="svgback">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.414" height="6.207" viewBox="0 0 11.414 6.207" style="transform: rotate(0deg);"><g id="Group_596" data-name="Group 596" transform="translate(10.707 0.707) rotate(90)"><path id="Path_62" data-name="Path 62" d="M0,10,5,5,0,0" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></path></g></svg>
+                                    </div>
+                                  </button>
+                                  <div class="accordion-content">
+                                    <p>We analyze existing data to predetermine future performances and secure a high average watch time and a low drop-off rate.</p>
+                                  </div>
+                                </div>
+                                <div class="accordion-item border-t-2 border-[#343434]">
+                                  <button class="accordion-button">
+                                    <p>2.&nbsp; Optimize</p>
+                                    <div class="svgback">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.414" height="6.207" viewBox="0 0 11.414 6.207" style="transform: rotate(0deg);"><g id="Group_596" data-name="Group 596" transform="translate(10.707 0.707) rotate(90)"><path id="Path_62" data-name="Path 62" d="M0,10,5,5,0,0" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></path></g></svg>
+                                    </div>
+                                  </button>
+                                  <div class="accordion-content">
+                                    <p>By understanding and acknowledging that each platform is different and optimizing the content in a way that is tailored specifically for each vertical is essential to maximize performance.</p>
+                                  </div>
+                                </div>
+                                <div class="accordion-item border-t-2 border-[#343434]">
+                                  <button class="accordion-button">
+                                    <p>3.&nbsp; A/B Testing</p>
+                                    <div class="svgback">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.414" height="6.207" viewBox="0 0 11.414 6.207" style="transform: rotate(0deg);"><g id="Group_596" data-name="Group 596" transform="translate(10.707 0.707) rotate(90)"><path id="Path_62" data-name="Path 62" d="M0,10,5,5,0,0" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></path></g></svg>
+                                    </div>
+                                  </button>
+                                  <div class="accordion-content">
+                                    <p>We test multiple edits and thumbnails to ensure that the best performing version is published</p>
+                                  </div>
+                                </div>
+                                <div class="accordion-item border-t-2 border-[#343434]">
+                                  <button class="accordion-button">
+                                    <p>4.&nbsp; Community Management</p>
+                                    <div class="svgback">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.414" height="6.207" viewBox="0 0 11.414 6.207" style="transform: rotate(0deg);"><g id="Group_596" data-name="Group 596" transform="translate(10.707 0.707) rotate(90)"><path id="Path_62" data-name="Path 62" d="M0,10,5,5,0,0" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></path></g></svg>
+                                    </div>
+                                  </button>
+                                  <div class="accordion-content">
+                                    <p>We focus on establishing and managing an active community with a highly engaged audience.</p>
+                                  </div>
+                                </div>
+                                <div class="accordion-item border-t-2 border-[#343434]">
+                                  <button class="accordion-button">
+                                    <p>5.&nbsp; Unlock Bonus Features</p>
+                                    <div class="svgback">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.414" height="6.207" viewBox="0 0 11.414 6.207" style="transform: rotate(0deg);"><g id="Group_596" data-name="Group 596" transform="translate(10.707 0.707) rotate(90)"><path id="Path_62" data-name="Path 62" d="M0,10,5,5,0,0" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></path></g></svg>
+                                    </div>
+                                  </button>
+                                  <div class="accordion-content">
+                                    <p>We help creators unlock bonus features on Meta such as Reels and Performance Bonuses with an earnings range of $1200 - $30,000 a month.</p>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </section>
+                    <section id="FAQ" class="relative z-[5] w-full bg-[#0d0d0d] pt-[100px] pb-[100px] max-sm:pt-[50px] max-sm:pb-[50px]">
+                        <div class="container">
+                            <h2 class="text-[75px] font-custom7 text-center pb-[5%] max-sm:text-[50px] max-sm:text-left ">
+                                Frequently Asked Questions
+                            </h2>
+                            <div class="accordion1 w-[80%] m-auto max-sm:w-full">
+                                <div class="accordion-item1  max-sm:mb-[10px]">
+                                  <button class="accordion-button1">
+                                    <p>Does Sunny State Agency claim ownership of my channel and content?</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25.877" height="25.877" viewBox="0 0 25.877 25.877" style="transform: rotate(0deg);"><g id="Group_764" data-name="Group 764" transform="translate(-1788.313 -6815.688)"><path id="Path_9480" data-name="Path 9480" d="M6262.313,6798.626h25.877" transform="translate(-4474 30)" fill="none" stroke="#fff" stroke-width="2"></path><path id="Path_9481" data-name="Path 9481" d="M6262.313,6798.626h25.877" transform="translate(8599.878 553.375) rotate(90)" fill="none" stroke="#fff" stroke-width="2"></path></g></svg>
+                                  </button>
+                                  <div class="accordion-content1">
+                                    <p>Compared to a lot of our competitors we do not claim any ownership of the channel or content we have worked on, it's your creation and this should remain in your full ownership.</p>
+                                  </div>
+                                </div>
+                                <div class="accordion-item1  max-sm:mb-[10px]">
+                                  <button class="accordion-button1">
+                                    <p>How much extra time will this cost me?</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25.877" height="25.877" viewBox="0 0 25.877 25.877" style="transform: rotate(0deg);"><g id="Group_764" data-name="Group 764" transform="translate(-1788.313 -6815.688)"><path id="Path_9480" data-name="Path 9480" d="M6262.313,6798.626h25.877" transform="translate(-4474 30)" fill="none" stroke="#fff" stroke-width="2"></path><path id="Path_9481" data-name="Path 9481" d="M6262.313,6798.626h25.877" transform="translate(8599.878 553.375) rotate(90)" fill="none" stroke="#fff" stroke-width="2"></path></g></svg>
+                                  </button>
+                                  <div class="accordion-content1">
+                                    <p>Some creators are hands-on and others are hands-off, we are fine with it either way. The only additional task on your end is reviewing the content before we publish this on your channel. You still have full control over your channel and can engage with your audience as you wish or we can do it on your behalf. Obviously, this will be done in a nuanced way to ensure brand safety.</p>
+                                  </div>
+                                </div>
+                                <div class="accordion-item1  max-sm:mb-[10px]">
+                                  <button class="accordion-button1">
+                                    <p>Do I get full access to new platforms Sunny State Agency helps to establish?</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25.877" height="25.877" viewBox="0 0 25.877 25.877" style="transform: rotate(0deg);"><g id="Group_764" data-name="Group 764" transform="translate(-1788.313 -6815.688)"><path id="Path_9480" data-name="Path 9480" d="M6262.313,6798.626h25.877" transform="translate(-4474 30)" fill="none" stroke="#fff" stroke-width="2"></path><path id="Path_9481" data-name="Path 9481" d="M6262.313,6798.626h25.877" transform="translate(8599.878 553.375) rotate(90)" fill="none" stroke="#fff" stroke-width="2"></path></g></svg>
+                                  </button>
+                                  <div class="accordion-content1">
+                                    <p>You get full access to each platform we unlock for you and will guide you through the backend. We do monthly reporting on earnings, views, and allover growth.</p>
+                                  </div>
+                                </div>
+                                <div class="accordion-item1  max-sm:mb-[10px]">
+                                  <button class="accordion-button1">
+                                    <p>What does Sunny State Agency look for in a creator?</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25.877" height="25.877" viewBox="0 0 25.877 25.877" style="transform: rotate(0deg);"><g id="Group_764" data-name="Group 764" transform="translate(-1788.313 -6815.688)"><path id="Path_9480" data-name="Path 9480" d="M6262.313,6798.626h25.877" transform="translate(-4474 30)" fill="none" stroke="#fff" stroke-width="2"></path><path id="Path_9481" data-name="Path 9481" d="M6262.313,6798.626h25.877" transform="translate(8599.878 553.375) rotate(90)" fill="none" stroke="#fff" stroke-width="2"></path></g></svg>
+                                  </button>
+                                  <div class="accordion-content1">
+                                    <p>A substantial content library is a must and preferable consistency in new content productions. On Facebook a minimum of 100,000 premium followers and on YouTube a minimum of 50,000 subscribers.</p>
+                                  </div>
+                                </div>
+                                <div class="accordion-item1  max-sm:mb-[10px]">
+                                  <button class="accordion-button1">
+                                    <p>Is there a price tag attached to this partnership?</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25.877" height="25.877" viewBox="0 0 25.877 25.877" style="transform: rotate(0deg);"><g id="Group_764" data-name="Group 764" transform="translate(-1788.313 -6815.688)"><path id="Path_9480" data-name="Path 9480" d="M6262.313,6798.626h25.877" transform="translate(-4474 30)" fill="none" stroke="#fff" stroke-width="2"></path><path id="Path_9481" data-name="Path 9481" d="M6262.313,6798.626h25.877" transform="translate(8599.878 553.375) rotate(90)" fill="none" stroke="#fff" stroke-width="2"></path></g></svg>
+                                  </button>
+                                  <div class="accordion-content1">
+                                    <p>We work on a revenue split basis, so no beforehand fees on your end. We are the one pre-investing in our partnership by having our team of experts lay out a strategy and revamp your existing content library. A no-cure-no-pay method makes us highly incentivized to maximize your potential.</p>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </section>
+                    <section class="relative w-full bg-[#000] z-[5] pt-[150px] pb-[150px] mt-[-2px] max-sm:pt-[50px] max-sm:pb-[50px]">
+                        <div class="container">
+                            <p class="text-center text-[40px] font-custom8 pb-[5%] w-[80%] m-auto leading-[140%] max-sm:text-[30px] max-sm:w-full">
+                                We combine our expertise and the latest tech to help you earn and grow exponentially across other platforms with your existing content.
+                            </p>
+                            <h2 class="text-[75px] font-custom7 text-center">Let’s Talk</h2>
+                        </div>
+                    </section>
+                </div>
+            </main>
+            <footer class="w-full z-[5] relative bg-[#000] pt-[150px] pb-[60px] mt-[-2px]">
+                <div class="container">
+                    <div class="flex max-sm:flex-col">
+                        <div class="w-[50%] pr-[13%] max-sm:w-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30.141" height="56.424" viewBox="0 0 41.141 56.424"><g id="Group_768" data-name="Group 768" transform="translate(0.001 -0.001)"><g id="Group_769" data-name="Group 769" transform="translate(-0.001 0.001)"><path id="Path_9482" data-name="Path 9482" d="M20.567,56.425a1.085,1.085,0,0,1-.94-.543L17.4,52.022A143.4,143.4,0,0,0,4.562,33.5,20.58,20.58,0,0,1,15.737.573,20.99,20.99,0,0,1,25.273.526h0A20.236,20.236,0,0,1,40.6,15.784a20.985,20.985,0,0,1-.016,9.572,20.638,20.638,0,0,1-3.941,8.063A159.319,159.319,0,0,0,23.062,53.19l-1.556,2.693a1.085,1.085,0,0,1-.94.543Zm-1.289-5.488,1.289,2.232.615-1.065a161.415,161.415,0,0,1,13.76-20.042,18.558,18.558,0,0,0,3.537-15.8A18.106,18.106,0,0,0,24.8,2.646,18.417,18.417,0,0,0,6.248,32.135a145.18,145.18,0,0,1,13.03,18.8Z" transform="translate(0.001 -0.001)" fill="#9a9a9a"></path><path id="Path_9483" data-name="Path 9483" d="M107.185,114.6a8.642,8.642,0,1,1,6.1-2.531,8.633,8.633,0,0,1-6.1,2.531m0-15.095h0a6.47,6.47,0,1,0,4.568,1.895,6.464,6.464,0,0,0-4.568-1.895Z" transform="translate(-86.617 -85.544)" fill="#9a9a9a"></path></g></g></svg>
+                            <div class="flex pt-[4%] flex-wrap">
+                                <div class="w-full pr-[10%] pb-[5%]">
+                                    <h3 class="pb-[6px] text-[21px] font-custom6">Amsterdam</h3>
+                                    <p class="text-[16px] text-[#9c9c9c] font-custom3 leading-[150%]">Frederik Hendrikplantsoen 40a, 1052 XS Amsterdam, The Netherlands</p>
+                                </div>
+                                <div class="w-full pr-[10%] pb-[5%]">
+                                    <h3 class="pb-[6px] text-[21px] font-custom6">Los Angeles</h3>
+                                    <p class="text-[16px] text-[#9c9c9c] font-custom3 leading-[150%]">Vin Scully Ave 1277 - Los Angeles, California. USA</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-[50%] flex flex-col max-sm:w-full">
+                            <img class="w-[35px] h-[80px] max-sm:h-[56px]" src="./images/important-links.svg" alt="namaste">
+                            <h3 class="text-[21px] font-custom6 pb-[30px]">Sunny State Agency</h3>
+                            <a class="text-[#9c9c9c] text-[16px] font-custom3 mb-[25px] cursor-pointer relative pb-[1px] w-max fnav" href="#Who-are-we">Who We Are</a>
+                            <a class="text-[#9c9c9c] text-[16px] font-custom3 mb-[25px] cursor-pointer relative pb-[1px] w-max fnav" href="#">Mayu Prasad</a>
+                            <a class="text-[#9c9c9c] text-[16px] font-custom3 mb-[25px] cursor-pointer relative pb-[1px] w-max fnav" href="#Services">Services</a>
+                            <a class="text-[#9c9c9c] text-[16px] font-custom3 mb-[25px] cursor-pointer relative pb-[1px] w-max fnav" href="#FAQ">FAQs</a>
+                            <a class="text-[#9c9c9c] text-[16px] font-custom3 mb-[25px] cursor-pointer relative pb-[1px] w-max fnav" class="enquiryForm10">Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="pt-[150px] w-full flex text-left max-sm:flex-col max-sm:items-center">
+                        <div class="flex mb-[30px] order-2 w-[50%] max-sm:order-1 max-sm:w-full max-sm:justify-center footersociallinks">
+                            <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="23.395" height="22.362" viewBox="0 0 23.395 22.362"><path id="Path_9320" data-name="Path 9320" d="M81.2,111.894V96.805H76.181v15.088H81.2ZM78.689,94.746a2.794,2.794,0,1,0-.033,0h.033Zm5.282,17.148h5.015v-8.425a3.436,3.436,0,0,1,.165-1.224,2.745,2.745,0,0,1,2.573-1.834c1.814,0,2.54,1.384,2.54,3.412v8.071H99.28v-8.651c0-4.634-2.474-6.791-5.773-6.791a5,5,0,0,0-4.553,2.542h.033V96.806H83.972c.065,1.415,0,15.088,0,15.088Z" transform="translate(-75.885 -89.532)" fill="#fff"></path></svg></a>
+                            <a href="https://www.instagram.com/sunnystateagency/" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path id="Path_9317" data-name="Path 9317" d="M5559.127,5442.125c3.2,0,3.6,0,4.8.1,3.3.1,4.8,1.7,4.9,4.9.1,1.3.1,1.6.1,4.8s0,3.6-.1,4.8c-.1,3.2-1.7,4.8-4.9,4.9-1.3.1-1.6.1-4.8.1s-3.6,0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9-.1-1.3-.1-1.6-.1-4.8s0-3.6.1-4.8c.1-3.2,1.7-4.8,4.9-4.9C5555.527,5442.125,5555.927,5442.125,5559.127,5442.125Zm0-2.2c-3.3,0-3.7,0-4.9.1-4.4.2-6.8,2.6-7,7-.1,1.2-.1,1.6-.1,4.9s0,3.7.1,4.9c.2,4.4,2.6,6.8,7,7,1.2.1,1.6.1,4.9.1s3.7,0,4.9-.1c4.4-.2,6.8-2.6,7-7,.1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.2-4.4-2.6-6.8-7-7C5562.827,5439.925,5562.427,5439.925,5559.127,5439.925Zm0,5.8a6.2,6.2,0,1,0,6.2,6.2A6.231,6.231,0,0,0,5559.127,5445.725Zm0,10.2a4,4,0,1,1,4-4A4.012,4.012,0,0,1,5559.127,5455.925Zm6.4-11.8a1.4,1.4,0,1,0,1.4,1.4A1.367,1.367,0,0,0,5565.527,5444.125Z" transform="translate(-5547.127 -5439.925)" fill="#fff"></path></svg></a>
+                            <a href="https://www.facebook.com/sunnystateagency/" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="13.286" height="25.588" viewBox="0 0 13.286 25.588"><g id="Group_311" data-name="Group 311" transform="translate(13.286) rotate(90)"><path id="f" d="M25.586,4.663H13.915V.746L9.364.159v4.5h-2.9c-1.319,0-2.214-.365-2.214-2.255V0H.179A33.246,33.246,0,0,0,0,3.508c0,3.473,2.121,5.85,6.013,5.85H9.368v3.927h4.551V9.359H25.588Z" transform="translate(0)" fill="#fff"></path></g></svg></a>
+                        </div>
+                        <div class="text-[#9c9c9c] order-1 w-[50%] max-sm:w-full max-sm:flex max-sm:flex-col max-sm:items-center">
+                            <div class="pb-[15px] text-[16px] leading-[150%] max-sm:text-center">Privacy Policy</div>
+                            <p >© 2023 redesigned by <span class="nav1 cursor-pointer">Mayu Prasad.YS.</span></p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
